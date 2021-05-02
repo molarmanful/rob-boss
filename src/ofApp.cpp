@@ -168,6 +168,7 @@ void ofApp::keyPressed(int key){
 		// change shape type
 		case ' ':
 			type ^= 1;
+			ofClear(0);
 
 		case OF_KEY_RETURN:
 			c.setHsb(ofRandom(256), ofRandom(256), ofRandom(0, 64));
